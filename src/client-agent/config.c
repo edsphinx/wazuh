@@ -21,8 +21,8 @@ keystore keys;
 agent *agt;
 int remote_conf;
 int min_eps;
-int rotate_log;
-int agent_debug_level;
+
+
 
 /* Read the config file (for the remote client) */
 int ClientConf(const char *cfgfile)
@@ -139,7 +139,7 @@ cJSON *getLabelsConfig(void) {
             cJSON_AddItemToObject(labels, "", label);
         }
     }
-    
+
     cJSON_AddItemToObject(root, "labels", labels);
 
     return root;

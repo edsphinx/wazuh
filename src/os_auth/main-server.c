@@ -52,7 +52,6 @@ static SSL_CTX *ctx;
 static int remote_sock = -1;
 
 char shost[512];
-authd_config_t config;
 keystore keys;
 static struct client pool[AUTH_POOL];
 static volatile int pool_i = 0;

@@ -13,7 +13,6 @@
 #include "config/global-config.h"
 #include "config/config.h"
 
-IntegratorConfig **integrator_config;
 
 void **OS_ReadIntegratorConf(char *cfgfile, IntegratorConfig ***integrator_config)
 {

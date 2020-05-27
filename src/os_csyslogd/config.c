@@ -12,7 +12,6 @@
 #include "config/global-config.h"
 #include "config/config.h"
 
-SyslogConfig **syslog_config;
 
 /* Read configuration */
 SyslogConfig **OS_ReadSyslogConf(__attribute__((unused)) int test_config, const char *cfgfile)
